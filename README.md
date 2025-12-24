@@ -1,91 +1,80 @@
-👤 Face Detection, Age & Gender Prediction (OpenCV)
+# Face Detection, Age & Gender Prediction
 
-A Python-based computer vision project that detects human faces in images/video and predicts age and gender using pre-trained deep learning models with OpenCV DNN.
+## Using OpenCV DNN (Python)
 
-This repository is maintained mainly as a backup of an older project, but the code is functional and reusable.
+A Python-based computer vision project that detects human faces in images or video streams and predicts age and gender using pre-trained deep learning models with OpenCV’s DNN module.
 
-✨ Features
+This repository is mainly maintained as a backup of an older project.
 
-Real-time face detection
+---
 
-Age prediction from detected faces
+## Features
+- Real-time face detection
+- Age prediction
+- Gender prediction
+- Built using OpenCV DNN
+- Works with webcam and video input
 
-Gender prediction from detected faces
+---
 
-Uses OpenCV’s DNN module
+## Tech Stack
+- Python
+- OpenCV (cv2)
+- NumPy
+- Pre-trained Caffe / TensorFlow models
 
-Works with images, webcam, or video streams
+---
 
-🧠 Tech Stack
-
-Python
-
-OpenCV (cv2)
-
-Pre-trained Caffe / TensorFlow models
-
-📁 Project Structure
-.
-├── main.py
-├── import cv2.py
-├── loll.py
-├── face detection file.py
+## Project Structure
+face-age-gender-detection/
+├── src/
+│   ├── main.py
+│   ├── face_detection.py
+│   └── age_gender.py
 ├── models/
 │   ├── age_deploy.prototxt
+│   ├── age_net.caffemodel
 │   ├── gender_deploy.prototxt
+│   ├── gender_net.caffemodel
 │   ├── opencv_face_detector.pbtxt
-│   └── model files (.caffemodel / .pb)
+│   └── opencv_face_detector_uint8.pb
 ├── setup.bat
+├── README.md
 └── .gitignore
 
-🚀 How to Run
-1️⃣ Clone the repository
+
+
+
+---
+
+## How to Run
+
+### Step 1: Clone the repository
 git clone https://github.com/rawshiee/YOUR_REPO.git
 cd YOUR_REPO
 
-2️⃣ Install dependencies
+### Step 2: Install dependencies
 pip install opencv-python numpy
 
-3️⃣ Run the project
-python main.py
+### Step 3: Run
 
 
-Ensure your webcam is connected for real-time detection.
+---
 
-👥 Collaborators
+## Collaborators
 
-Rawshiee (@rawshiee
-)
+### Maintainers
+- Rawshiee — https://github.com/rawshiee
+- FriX — https://github.com/frixisnotpeaceful
 
-FriX (@frixisnotpeaceful
-)
+---
 
-🗂️ Purpose of This Repository
+## Purpose
+- Backup of an old project
+- Reference for OpenCV face analysis
+- Learning resource
 
-Backup of an old computer vision project
+---
 
-Reference for OpenCV DNN-based face analysis
-
-Learning resource for face detection pipelines
-
-⚠️ Notes
-
-Model files are pre-trained and large in size
-
-Prediction accuracy depends on lighting and camera quality
-
-Code structure may be cleaned in future revisions
-
-📌 Future Improvements
-
-Clean file naming and structure
-
-Add requirements.txt
-
-Improve visualization and UI
-
-Train custom models
-
-📜 License
-
-This project is intended for educational and learning purposes.
+## License
+Educational use only.
