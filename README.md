@@ -26,7 +26,8 @@ This repository is mainly maintained as a backup of an older project.
 ---
 
 ## Project Structure
-face-age-gender-detection/
+```
+face-detection-and-age-prediction/
 ├── src/
 │   ├── main.py
 │   ├── face_detection.py
@@ -38,11 +39,11 @@ face-age-gender-detection/
 │   ├── gender_net.caffemodel
 │   ├── opencv_face_detector.pbtxt
 │   └── opencv_face_detector_uint8.pb
+├── requirements.txt
 ├── setup.bat
 ├── README.md
 └── .gitignore
-
-
+```
 
 
 ---
